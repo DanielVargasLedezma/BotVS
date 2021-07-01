@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+body {
+  background-color: rgba(0, 119, 255, 0.658);
+}
+
+#flechita {
+  position: absolute;
+  background-image: url("img/go-back-arrow.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 6%;
+  width: 4%;
+  left: 0px;
+  top: 0px;
+  margin: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background-image: url("img/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background-color: red;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+
+#table-sec {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 40vh;
+  background-color: rgba(17, 17, 17, 0.705);
+  margin: 40px;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+table {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  max-height: 40vh;
+  border-radius: 10px;
+  user-select: none;
+  left: 5%;
+}
+
+#bitch {
+  visibility: hidden;
+}
+
+table th {
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(202, 202, 202);
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 1.7px;
+  background-color: rgba(17, 17, 17, 0.322);
+}
+
+table tbody a {
+  text-decoration: none;
+  color: white;
+}
+
+table tr {
+  border-radius: 10px;
+}
+
+table tr th {
+  display: inline-block;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  height: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+table tr th:nth-child(2),
+table tr th:nth-child(3) {
+  width: 20%;
+}
